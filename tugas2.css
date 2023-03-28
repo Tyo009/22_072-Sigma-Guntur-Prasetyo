@@ -1,0 +1,234 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Avenir Next";
+  }
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #2135BB;
+    color: white;
+    position: fixed;
+}
+
+.gambar {
+    float: left;
+    padding: 35px;
+    padding-left: 15px;
+    width: 50px;
+    height: 40px;
+
+}
+
+.logo {
+    float: left;
+    padding: 25px;
+    font-size: 50px;
+    
+    
+}
+
+.list ul li {
+    padding: 40px;
+    list-style: none;
+    float: right;
+    font-size: 20px;
+  
+}  
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:hover {
+    background-color: gray;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav .banner {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(https://images.pexels.com/photos/15919234/pexels-photo-15919234.jpeg?auto=compress&cs=tinysrgb&w=1600://img.freepik.com/free-photo/shopping-online-shopaholics-e-commerce-e-shopping-concept_53876-120673.jpg?size=626&ext=jpg&ga=GA1.2.1408230237.1679909110&semt=ais) ;
+    background-size: cover;
+    background-position-y: 30% ;
+    text-align: center;
+}
+
+.banner h1 {
+    padding-top: 300px;
+    font-size: 80px;
+    color :darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner h2 {
+    font-size: 30px;
+    color :#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.daftar {
+    margin-top: 70px;
+}
+.daftar a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.facebook {
+    padding: 15px;
+    background-color:#3A5795;
+    border-radius: 4px;
+    margin-right: 40px;
+
+}
+
+.instagram {
+    padding: 15px;
+    background-color: #FD1D1D;
+    border-radius: 4px;
+    margin-right: 40px;
+
+}
+
+.twitter
+{
+    padding: 15px;
+    background-color: #1D9BF0 ;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+nav.section {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.section {
+    padding-top: 30px;
+    border-bottom: 5px solid #4480a0;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.judbar {
+    font-family: sans-serif ;
+    text-align: center;
+    color: #5726de;
+}
+
+.pertama {
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+
+.link {
+    background-color:#4682B4;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+
+.lin1 {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.isi {
+    text-align: center;
+    background: red;
+    width: 100%;
+}
+
+.isiformulir {
+  padding-right: 400px;
+    text-align: center;
+   
+   
+
+}
+
+.contact{
+    padding-top: 100px;
+  }
+  
+  input, textarea{
+    border: 1px solid #dee7ec;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .form p{
+    padding-bottom: 10px;
+  }
+  
+  .submit{
+    font-size: 18px;
+    color: #889aeb;
+    background-color: #dee7ec;
+  }
+
+footer {
+    background-color: #4480a0;
+    text-align: center;
+    padding: 100px;
+}
+
+
+
+
+    
+
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
