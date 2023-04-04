@@ -1,0 +1,378 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  'Poppins', sans-serif;
+   
+    
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto ;
+}
+
+/* Atur Header Dari Home */
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Pembungkus Paling Atas */
+.navigasi {
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+
+    
+}
+
+
+/* Mengatur Posisi Logo dan Baris Link Dan Responsive */
+.navigasi .box-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigasi .box-navigation .box:nth-child(1) h1 {
+    font-size: 38px;
+    color: white;
+
+}
+.navigasi .box-navigation .box:nth-child(2) ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigasi .box-navigation .box:nth-child(2) ul li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.navigasi .box-navigation .box:nth-child(2) a {
+    text-decoration: none;
+    color:white;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navigasi .box-navigation .box:nth-child(2) ul li a:hover {
+    color: greenyellow;
+}
+
+.navigasi .box-navigation .box:nth-child(3) {
+    display: none;
+}
+
+
+/* Atur Animasi BOX border */
+/* Mengatur Responsive Link Nav Bar */
+
+
+@media screen and (max-width: 990px) {
+   .navigasi .box-navigation .box:nth-child(2) {
+   display: flex;
+   flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    background-color: white;
+    width: 200px;
+    /* Ngatur Tampilan Opacity dan Tampilan */
+    border-radius: 30px;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    opacity: 0;
+    transition: all 0.3s ease;
+   }
+
+   .navigasi .box-navigation .menu-navigation.menu-active {
+    opacity: 1;
+   }
+
+   .navigasi .box-navigation .box:nth-child(2) ul {
+    flex-direction: column;
+   }
+
+   /* Ngatur Posisi Dalam Box Responsive Serta Animasi Didalamnya */
+   .navigasi .box-navigation .box:nth-child(2) ul li  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   }
+
+   .navigasi .box-navigation .box:nth-child(2) ul li i {
+    margin-inline: 20px ;
+    font-size: 17px;
+   }
+
+   .navigasi .box-navigation .box:nth-child(2) ul li a {
+    color: black;
+   }
+   
+   .navigasi .box-navigation .box:nth-child(3) {
+    display: flex;
+    align-items: center;
+    }
+
+   
+
+    .navigasi .box-navigation .box:nth-child(3) i{
+        font-size: 30px;
+    
+        }
+ }
+/* Posisi absolute Untuk memberikan Garis Berbeda Pada Setiap baris web */
+
+header .tulisan .judul {
+    text-align: center;
+    padding-top: 200px;
+    opacity: 0.5;
+    color: white;
+    font-size: 100px;
+}
+
+/* Mengatur Responsive Tulisan */
+header .tulisan2 .judul2 {
+    text-align: center;
+    opacity: 0.5;
+    color: white;
+    font-size: 60px;
+}
+@media screen and (max-width :1200px) {
+    header .tulisan .judul {
+        text-align: center;
+        padding-top: 200px;
+        opacity: 0.3;
+        color: white;
+        font-size: 100px;
+    }
+    
+    header .tulisan2 .judul2 {
+        text-align: center;
+        opacity: 0.3;
+        color: white;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width :400px) {
+    header .tulisan .judul {
+        text-align: center;
+        padding-top: 200px;
+        opacity: 0.3;
+        color: white;
+        font-size: 100px;
+    }
+    
+    header .tulisan2 .judul2 {
+        text-align: center;
+        opacity: 0.3;
+        color: white;
+        font-size: 60px;
+    }
+}
+
+/* Judul Bar Konten */
+.judes {
+    margin: 0;
+    padding: 0;
+}
+
+.judes .garis {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.judes .garis hr{
+    width: 80%;
+    text-align: center;
+    height: 5px;
+    background-color: darkblue;
+    margin-inline: auto  ;
+    float: none;
+}
+
+
+/* ISIAN KONTEN 1 */
+.iskon {
+    margin: 0;
+    padding: 0;
+ 
+
+}
+
+.iskon .isikon {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    text-align: center;
+}
+
+.isikon .konten {
+
+    width: 400px;
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.isikon .konten img {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.isikon .konten p {
+    text-align: justify;
+}
+
+/* ISIAN KONTEN 2 */
+
+.iskon2 .isikon2 {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.isikon2 .konten2 {
+
+    width: 400px;
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.isikon2 .konten2 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.isikon2 .konten2 p {
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width : 700px) {
+    .iskon .isikon {
+        flex-direction: column;
+       
+    }
+    .iskon .isikon img {
+        width: 150px;
+        height: 150px;
+    }
+    .iskon2 .isikon2 {
+        flex-direction: column;
+       
+    }
+    .iskon2 .isikon2 img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+.se
+
+input, textarea{
+    border: 1px solid #dee7ec;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .form p{
+    padding-bottom: 10px;
+  }
+  
+  .submit{
+    font-size: 18px;
+    color: #889aeb;
+    background-color: #dee7ec;
+  }
+
+
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer .class {
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.class  {
+    color:  white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.isilink {
+    font-size: 40px;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.class h3 {
+    font-weight: lighter;
+}
+
+/* .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #555;
+  } */
+
+.go-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px ;
+    background: #fff;
+    border: 3px solid #333;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.go-top-btn {
+    width: 50px;
+    height: 50px;
+}
