@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.style-logo {
+  font-size: 100px;
+  font-weight: bolder;
+  color: white;
+  padding-left: 30px;
+}
+.class h1 {
+  font-weight: 800;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.style-tulisan {
+  color: white;
+  margin-right: 800px;
+  padding: 20px;
+}
+
+.style-jarak {
+  margin-top: 100px;
+}
+
+.style-button {
+  width: 100%;
+  margin-top: 610px;
+  color: white;
+  border-radius: 40px;
+}
+
+.class {
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: var(--second-bg-color);
+}
+.row {
+  margin-top: 1%;
+}
+h1 {
+  text-align: center;
+}
+h1 span {
+  color: var(--color-main);
+}
+.navbar-brand span {
+  color: var(--color-main);
+  font-size: 130%;
+  font-weight: bold;
+}
+a.navbar-brand {
+  font-size: medium;
+}
+.offcanvas-body button {
+  position: absolute;
+  bottom: 15px;
+  width: 98%;
+  right: 10px;
+  font-weight: bold;
+  left: 5px;
+  text-align: center;
+  background-color: red;
+  border-color: black;
+}
+
+.offcanvas-body button a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  margin-top: 20px;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.d-flex {
+  padding-left: 840px;
+}
